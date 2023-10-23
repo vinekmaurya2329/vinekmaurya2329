@@ -1,4 +1,5 @@
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsPJ9cm0-r5p50py0yUzvM5ZtEB-xWoJRPRA&usqp=CAU" height="425" alt="img"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsPJ9cm0-r5p50py0yUzvM5ZtEB-xWoJRPRA&usqp=CAU" height="325"  
+style="margin-left:300" alt="img"/>
 <h1 align="center">Hi 👋, I'm Vinek Maurya</h1>
 <h3 align="center">A passionate Full Stack developer from Uttar Pradesh,India</h3>
 
