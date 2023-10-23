@@ -1,6 +1,7 @@
-
 <h1 align="center">Hi 👋, I'm Vinek Maurya</h1>
 <h3 align="center">A passionate Full Stack developer from Uttar Pradesh,India</h3>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=vinekmaurya2329" alt="vinekmaurya2329" /></a> </p>
 
 - 👯 I’m currently learning **Redux**
 
