@@ -5,7 +5,7 @@
 
 - 👯 I’m currently learning **Redux**
 
-- 👨‍💻 All of my projects are available at [[https://portfolio-vinekmaurya2329.vercel.app/](https://portfolio-wm5h-kbqsjp82t-vinekmaurya2329s-projects.vercel.app/)]([https://portfolio-vinekmaurya2329.vercel.app/](https://portfolio-wm5h-kbqsjp82t-vinekmaurya2329s-projects.vercel.app/))
+- 👨‍💻 All of my projects are available at([https://portfolio-vinekmaurya2329.vercel.app/](https://portfolio-wm5h-kbqsjp82t-vinekmaurya2329s-projects.vercel.app/))
 
 - 💬 Ask me about **MERN Stack**
 
