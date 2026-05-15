@@ -7,7 +7,7 @@
   </a>
 </p>
 
-- 👯 I’m currently learning **Redux**
+
 - 👨‍💻 All of my projects are available at [portfolio](https://portfolio-wm5h-kbqsjp82t-vinekmaurya2329s-projects.vercel.app/)
 - 💬 Ask me about **MERN Stack**
 - 📫 How to reach me: **aashmaurya7522@gmail.com**
