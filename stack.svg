@@ -24,93 +24,103 @@
   <text x="450" y="38" text-anchor="middle" font-size="18" font-weight="700" fill="#e5e7eb">My Tech Orbit</text>
 
   <g transform="translate(450,200)">
-    <!-- core -->
     <circle r="46" fill="url(#core)">
       <animate attributeName="r" values="42;52;42" dur="3s" repeatCount="indefinite"/>
     </circle>
     <circle r="8" fill="#fff"/>
 
-    <!-- orbit 1 -->
+    <!-- orbit 1: backend -->
     <g transform="rotate(-18)">
       <ellipse rx="130" ry="44" fill="none" stroke="#22d3ee" stroke-opacity="0.35" stroke-dasharray="4 6"/>
       <g class="chip">
         <animateMotion dur="12s" begin="0s" repeatCount="indefinite" path="M-130,0 a130,44 0 1,0 260,0 a130,44 0 1,0 -260,0"/>
-        <rect x="-30" y="-12" width="60" height="24" rx="12" fill="#22d3ee"/><text y="4" text-anchor="middle">HTML</text>
+        <rect x="-35" y="-12" width="70" height="24" rx="12" fill="#22d3ee"/><text y="4" text-anchor="middle">Node.js</text>
       </g>
       <g class="chip">
-        <animateMotion dur="12s" begin="-6s" repeatCount="indefinite" path="M-130,0 a130,44 0 1,0 260,0 a130,44 0 1,0 -260,0"/>
-        <rect x="-26" y="-12" width="52" height="24" rx="12" fill="#22d3ee"/><text y="4" text-anchor="middle">CSS</text>
+        <animateMotion dur="12s" begin="-4s" repeatCount="indefinite" path="M-130,0 a130,44 0 1,0 260,0 a130,44 0 1,0 -260,0"/>
+        <rect x="-47" y="-12" width="94" height="24" rx="12" fill="#22d3ee"/><text y="4" text-anchor="middle">Express.js</text>
+      </g>
+      <g class="chip">
+        <animateMotion dur="12s" begin="-8s" repeatCount="indefinite" path="M-130,0 a130,44 0 1,0 260,0 a130,44 0 1,0 -260,0"/>
+        <rect x="-35" y="-12" width="70" height="24" rx="12" fill="#22d3ee"/><text y="4" text-anchor="middle">Nest.js</text>
       </g>
     </g>
 
-    <!-- orbit 2 -->
+    <!-- orbit 2: frontend + languages -->
     <g transform="rotate(14)">
       <ellipse rx="230" ry="76" fill="none" stroke="#a78bfa" stroke-opacity="0.35" stroke-dasharray="4 6"/>
       <g class="chip">
         <animateMotion dur="20s" begin="0s" repeatCount="indefinite" path="M-230,0 a230,76 0 1,0 460,0 a230,76 0 1,0 -460,0"/>
-        <rect x="-34" y="-12" width="68" height="24" rx="12" fill="#a78bfa"/><text y="4" text-anchor="middle">React</text>
+        <rect x="-30" y="-12" width="60" height="24" rx="12" fill="#a78bfa"/><text y="4" text-anchor="middle">React</text>
       </g>
       <g class="chip">
-        <animateMotion dur="20s" begin="-7s" repeatCount="indefinite" path="M-230,0 a230,76 0 1,0 460,0 a230,76 0 1,0 -460,0"/>
-        <rect x="-40" y="-12" width="80" height="24" rx="12" fill="#a78bfa"/><text y="4" text-anchor="middle">Node.js</text>
+        <animateMotion dur="20s" begin="-5s" repeatCount="indefinite" path="M-230,0 a230,76 0 1,0 460,0 a230,76 0 1,0 -460,0"/>
+        <rect x="-35" y="-12" width="70" height="24" rx="12" fill="#a78bfa"/><text y="4" text-anchor="middle">Next.js</text>
       </g>
       <g class="chip">
-        <animateMotion dur="20s" begin="-14s" repeatCount="indefinite" path="M-230,0 a230,76 0 1,0 460,0 a230,76 0 1,0 -460,0"/>
-        <rect x="-44" y="-12" width="88" height="24" rx="12" fill="#a78bfa"/><text y="4" text-anchor="middle">TypeScript</text>
+        <animateMotion dur="20s" begin="-10s" repeatCount="indefinite" path="M-230,0 a230,76 0 1,0 460,0 a230,76 0 1,0 -460,0"/>
+        <rect x="-46" y="-12" width="92" height="24" rx="12" fill="#a78bfa"/><text y="4" text-anchor="middle">JavaScript</text>
+      </g>
+      <g class="chip">
+        <animateMotion dur="20s" begin="-15s" repeatCount="indefinite" path="M-230,0 a230,76 0 1,0 460,0 a230,76 0 1,0 -460,0"/>
+        <rect x="-46" y="-12" width="92" height="24" rx="12" fill="#a78bfa"/><text y="4" text-anchor="middle">TypeScript</text>
       </g>
     </g>
 
-    <!-- orbit 3 -->
+    <!-- orbit 3: data + design -->
     <g transform="rotate(-6)">
       <ellipse rx="330" ry="108" fill="none" stroke="#f472b6" stroke-opacity="0.35" stroke-dasharray="4 6"/>
       <g class="chip">
         <animateMotion dur="28s" begin="0s" repeatCount="indefinite" path="M-330,0 a330,108 0 1,0 660,0 a330,108 0 1,0 -660,0"/>
-        <rect x="-36" y="-12" width="72" height="24" rx="12" fill="#f472b6"/><text y="4" text-anchor="middle">Python</text>
+        <rect x="-48" y="-12" width="96" height="24" rx="12" fill="#f472b6"/><text y="4" text-anchor="middle">PostgreSQL</text>
       </g>
       <g class="chip">
-        <animateMotion dur="28s" begin="-9s" repeatCount="indefinite" path="M-330,0 a330,108 0 1,0 660,0 a330,108 0 1,0 -660,0"/>
-        <rect x="-34" y="-12" width="68" height="24" rx="12" fill="#f472b6"/><text y="4" text-anchor="middle">MySQL</text>
+        <animateMotion dur="28s" begin="-7s" repeatCount="indefinite" path="M-330,0 a330,108 0 1,0 660,0 a330,108 0 1,0 -660,0"/>
+        <rect x="-38" y="-12" width="76" height="24" rx="12" fill="#f472b6"/><text y="4" text-anchor="middle">MongoDB</text>
       </g>
       <g class="chip">
-        <animateMotion dur="28s" begin="-18s" repeatCount="indefinite" path="M-330,0 a330,108 0 1,0 660,0 a330,108 0 1,0 -660,0"/>
-        <rect x="-26" y="-12" width="52" height="24" rx="12" fill="#f472b6"/><text y="4" text-anchor="middle">Git</text>
+        <animateMotion dur="28s" begin="-14s" repeatCount="indefinite" path="M-330,0 a330,108 0 1,0 660,0 a330,108 0 1,0 -660,0"/>
+        <rect x="-29" y="-12" width="58" height="24" rx="12" fill="#f472b6"/><text y="4" text-anchor="middle">Redis</text>
+      </g>
+      <g class="chip">
+        <animateMotion dur="28s" begin="-21s" repeatCount="indefinite" path="M-330,0 a330,108 0 1,0 660,0 a330,108 0 1,0 -660,0"/>
+        <rect x="-58" y="-12" width="116" height="24" rx="12" fill="#f472b6"/><text y="4" text-anchor="middle">System Design</text>
       </g>
     </g>
   </g>
 
-  <!-- category cards -->
   <g>
     <g transform="translate(40,372)">
       <rect width="190" height="84" rx="14" fill="#131526" stroke="#22d3ee" stroke-opacity="0.5">
         <animate attributeName="stroke-opacity" values="0.15;0.9;0.15" keyTimes="0;0.125;0.25" dur="6s" begin="0s" repeatCount="indefinite"/>
       </rect>
-      <text x="16" y="28" class="card-t">Frontend</text>
-      <text x="16" y="50" class="card-i">HTML · CSS · React</text>
-      <text x="16" y="68" class="card-i">Tailwind · Next.js</text>
+      <text x="16" y="28" class="card-t">Backend</text>
+      <text x="16" y="50" class="card-i">Node.js · Express.js</text>
+      <text x="16" y="68" class="card-i">Nest.js</text>
     </g>
     <g transform="translate(250,372)">
       <rect width="190" height="84" rx="14" fill="#131526" stroke="#a78bfa" stroke-opacity="0.5">
         <animate attributeName="stroke-opacity" values="0.15;0.9;0.15;0.15" keyTimes="0;0.125;0.25;1" dur="6s" begin="1.5s" repeatCount="indefinite"/>
       </rect>
-      <text x="16" y="28" class="card-t">Motion &amp; 3D</text>
-      <text x="16" y="50" class="card-i">SVG · GSAP</text>
-      <text x="16" y="68" class="card-i">Three.js · Figma</text>
+      <text x="16" y="28" class="card-t">Frontend</text>
+      <text x="16" y="50" class="card-i">React · Next.js</text>
+      <text x="16" y="68" class="card-i">JavaScript · TypeScript</text>
     </g>
     <g transform="translate(460,372)">
       <rect width="190" height="84" rx="14" fill="#131526" stroke="#f472b6" stroke-opacity="0.5">
         <animate attributeName="stroke-opacity" values="0.15;0.9;0.15;0.15" keyTimes="0;0.125;0.25;1" dur="6s" begin="3s" repeatCount="indefinite"/>
       </rect>
-      <text x="16" y="28" class="card-t">Data</text>
-      <text x="16" y="50" class="card-i">Python · SQL</text>
-      <text x="16" y="68" class="card-i">Pandas · MongoDB</text>
+      <text x="16" y="28" class="card-t">Data &amp; Cache</text>
+      <text x="16" y="50" class="card-i">PostgreSQL · MongoDB</text>
+      <text x="16" y="68" class="card-i">Redis</text>
     </g>
     <g transform="translate(670,372)">
       <rect width="190" height="84" rx="14" fill="#131526" stroke="#22d3ee" stroke-opacity="0.5">
         <animate attributeName="stroke-opacity" values="0.15;0.9;0.15;0.15" keyTimes="0;0.125;0.25;1" dur="6s" begin="4.5s" repeatCount="indefinite"/>
       </rect>
-      <text x="16" y="28" class="card-t">AI</text>
-      <text x="16" y="50" class="card-i">Claude · Prompting</text>
-      <text x="16" y="68" class="card-i">APIs · Automation</text>
+      <text x="16" y="28" class="card-t">Gen AI &amp; Design</text>
+      <text x="16" y="50" class="card-i">Gen AI · LLM APIs</text>
+      <text x="16" y="68" class="card-i">System Design</text>
     </g>
   </g>
 </svg>
